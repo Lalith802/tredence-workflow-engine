@@ -116,7 +116,7 @@ POST /graph/run
   }
 }
 ```
-## 📌 Example Execution Output
+## Example Execution Output
 
 POST /graph/run
 
