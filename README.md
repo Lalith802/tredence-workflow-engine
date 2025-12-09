@@ -120,8 +120,6 @@ POST /graph/run
 
 POST /graph/run
 
-
-**Body**
 ```json
 {
   "graph_id": "63de51ad-d0d7-45cd-bbc7-926d708595e8",
