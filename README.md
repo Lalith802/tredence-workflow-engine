@@ -1,4 +1,4 @@
-# Tredence Workflow Orchestrator
+# Tredence Workflow Engine
 
 A FastAPI-based backend workflow execution system that runs code-review analysis as a directed graph of tools with shared state, scoring, persistence, and iterative improvement cycles until quality thresholds are achieved. This implementation fulfills and extends the Tredence backend assessment requirements by incorporating looping logic, state propagation, node-to-node execution control, and persistent run storage for full reproducibility.
 
@@ -176,7 +176,7 @@ This project successfully implements a modular workflow execution engine where e
 - **Name:** Lalith Krishna Vallamkonda  
 - **Roll Number:** RA2211056010095  
 - **Program:** B.Tech CSE (Data Science)  
-- **Project:** Tredence Workflow Orchestrator – Code Quality Assessment
+- **Project:** Tredence Workflow Engine – Code Quality Assessment
 
 ---
 
