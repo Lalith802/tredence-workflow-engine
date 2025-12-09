@@ -60,7 +60,6 @@ def detect_basic_issues(state: Dict[str, Any], config: Dict[str, Any]):
     }
 
 
-# ✅ FIX A APPLIED (loop correctly targets detect_issues, not detect_basic_issues)
 @register_tool("suggest_improvements")
 def suggest_improvements(state: Dict[str, Any], config: Dict[str, Any]):
     threshold = config.get("threshold", 6)
@@ -76,7 +75,6 @@ def suggest_improvements(state: Dict[str, Any], config: Dict[str, Any]):
     if not suggestions:
         suggestions.append("Add type hints & docstrings.")
 
-    # 👇 KEY FIX: loop goes back to detect_issues (valid node in graph)
     next_node = None if quality >= threshold else "detect_issues"
 
     return {
